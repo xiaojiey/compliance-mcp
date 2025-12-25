@@ -24,7 +24,8 @@ The Compliance MCP Server provides AI assistants with tools to:
 
 ```bash
 # Clone the repository
-cd /home/xiyuan/isc/compliance-mcp
+git clone <repository-url>
+cd compliance-mcp
 
 # Build the server
 go build -o compliance-mcp-server ./cmd/server
