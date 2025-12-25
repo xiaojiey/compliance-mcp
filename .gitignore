@@ -1,0 +1,23 @@
+# Kubernetes config files (contain credentials)
+kubeconfig
+*.kubeconfig
+
+# Go build artifacts
+compliance-mcp-server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
